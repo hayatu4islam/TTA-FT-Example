@@ -1,1 +1,0 @@
-Over the last three decades, a large number of evolutionary algorithms have been developed for solving multi-objective optimization problems.
