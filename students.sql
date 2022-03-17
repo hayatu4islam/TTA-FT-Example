@@ -1,7 +1,8 @@
 /* This is a database for 
 storing information about students */
 /* student database has already been created */
-create database students; 
+create database students;
+show databases; 
 use students;
 CREATE TABLE personal_info(
 firstname varchar(15) NOT NULL,
