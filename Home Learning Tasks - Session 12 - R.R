@@ -25,11 +25,12 @@ install.packages("ggplot2")
 library(ggplot2)
 
 # to find a toy data set
-data(package = "ggplot2")
+# data(package = "ggplot2")
 x <- 1:20 
 y <- x^2
 print(x)
 print(y)
 
-qplot(data = mpg, x = cty, y = hwy, geom = "point", color = class)
+
+qplot(x, y, geom = "point", color = class)
 
