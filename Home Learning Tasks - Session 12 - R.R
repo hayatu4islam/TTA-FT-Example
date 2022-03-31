@@ -54,3 +54,9 @@ print(paste("Hello, ",username))
 print(paste("Your age is ",age))
 
 # Task 6
+seq <- 20:50
+average <- mean(seq)
+total <- sum(seq)
+print(total)
+
+# Task 7
