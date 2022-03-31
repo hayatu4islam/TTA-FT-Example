@@ -1,4 +1,8 @@
+# COMPULSORY TASK
 
+
+
+# COMPULSORY LEARNING TASKS
 first <- c(1,3,5,7,9)
 second <- c(2,4,6,8,10)
 third <- c(2,3,5,7,11)
@@ -42,3 +46,5 @@ barplot(scores,
         names.arg = c("Biology", "English", "Chemistry", "Mathematics", "Geography"),
         col = "blue",
         horiz = FALSE)
+
+# Task 5
