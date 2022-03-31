@@ -26,7 +26,10 @@ library(ggplot2)
 
 # to find a toy data set
 data(package = "ggplot2")
-seq <- 1:20 
+x <- 1:20 
+y <- x^2
+print(x)
+print(y)
 
 qplot(data = mpg, x = cty, y = hwy, geom = "point", color = class)
 
