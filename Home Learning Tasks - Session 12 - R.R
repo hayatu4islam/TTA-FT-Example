@@ -52,3 +52,5 @@ username <- readline("Enter your name: ")
 age <-  readline("Enter your age: ")
 print(paste("Hello, ",username))
 print(paste("Your age is ",age))
+
+# Task 6
