@@ -63,17 +63,38 @@ print(total)
 rn = c(sample(-50:50, 10))
 print(rn)
 
+# ==============================================================================
 # OPTIONAL CHALLENGE
 # Task 1: Write a R program to get the first 10 fibonacci numbers.
 i <- 0
 j <- 1
 num <- 2
 fibo <- c(i,j)
-while (num < 5){
+while (num < 10){
   nextNum <- i+j
   i <- j
   j <- nextNum
   fibo <- append(fibo, nextNum)
   num <-num+1
 }
+print("10 Fibonacci Numbers")
 print(fibo)
+
+# Task 2
+numbers <- 1:100
+for (num in numbers){
+  if(num%%3==0 && num%%5==0){
+    print(paste(num,"FizzBuzz"))
+  }
+  else if(num%%3==0){
+    print(paste(num,"Fizz"))
+  }
+  else if(num%%5==0){
+    print(paste(num,"Buzz"))
+  }
+  else{
+    print(num)
+  }
+}
+
+# ----------------Thank you---------------
