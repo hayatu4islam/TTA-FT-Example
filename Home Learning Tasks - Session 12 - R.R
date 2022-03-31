@@ -43,8 +43,12 @@ barplot(scores,
         main = "Bar Plot of five subjects",
         xlab = "Score",
         ylab = "Subject",
-        names.arg = c("Biology", "English", "Chemistry", "Mathematics", "Geography"),
+        names.arg = c("Biology", "English", "Chemistry", "Mathematics", "Physics"),
         col = "blue",
         horiz = FALSE)
 
 # Task 5
+username <- readline("Enter your name: ")
+age <-  readline("Enter your age: ")
+print(paste("Hello, ",username))
+print(paste("Your age is ",age))
