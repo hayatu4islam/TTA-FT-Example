@@ -21,16 +21,24 @@ employee <- data.frame(name,age,role,service_length)
 print(employee)
 
 # Task 3
-install.packages("ggplot2")
-library(ggplot2)
+#install.packages("ggplot2")
+#library(ggplot2)
 
 # to find a toy data set
 # data(package = "ggplot2")
-x <- 1:20 
-y <- x^2
-print(x)
-print(y)
+ver <- 1:20 
+hor <- x^2
 
+datas <- data.frame(x,y)
+print(datas)
+qplot(data = datas, x = ver, y = hor, geom = "point")
 
-qplot(x, y, geom = "point", color = class)
-
+# Task 4
+scores = c(50, 75, 85, 60, 43)
+barplot(scores,
+        main = "Bar Plot of five subjects",
+        xlab = "Score",
+        ylab = "Subject",
+        names.arg = c("Biology", "English", "Chemistry", "Mathematics", "Geography"),
+        col = "blue",
+        horiz = FALSE)
