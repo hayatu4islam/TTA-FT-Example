@@ -67,5 +67,13 @@ print(rn)
 # Task 1: Write a R program to get the first 10 fibonacci numbers.
 i <- 0
 j <- 1
-num <- 3:10
-
+num <- 2
+fibo <- c(i,j)
+while (num < 5){
+  nextNum <- i+j
+  i <- j
+  j <- nextNum
+  fibo <- append(fibo, nextNum)
+  num <-num+1
+}
+print(fibo)
