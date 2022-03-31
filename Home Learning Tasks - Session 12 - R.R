@@ -60,3 +60,12 @@ total <- sum(seq)
 print(total)
 
 # Task 7
+rn = c(sample(-50:50, 10))
+print(rn)
+
+# OPTIONAL CHALLENGE
+# Task 1: Write a R program to get the first 10 fibonacci numbers.
+i <- 0
+j <- 1
+num <- 3:10
+
